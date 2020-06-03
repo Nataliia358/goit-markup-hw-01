@@ -1,0 +1,125 @@
+ :root {
+     --primary-text-color:#757575;
+     --secondary-text-color: #ffffff;
+     --title-text-color: #212121;
+     --accent-color:#2196F3;
+ }
+ 
+ /*Стилизация страницы Студия*/
+
+/*.logo {
+    color: #000000
+}
+.logo:hover,
+.logo:focus {
+    color: #2196F3
+}*/
+
+
+ body {
+     background-color:#ffffff;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .site-nav .link {
+     color: var(--title-text-color);
+
+ }
+
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+     color: var(--accent-color);
+ }
+
+ .site-nav .link.current {
+     color: var(--accent-color);
+ }
+
+.site-contact .link {
+    color: var(--primary-text-color);
+}
+
+ .site-contact .link:hover,
+ .site-contact .link:focus {
+     color: var(--accent-color);
+ }
+
+ .hero-title {
+     color: var(--secondary-text-color);
+ }
+ .section-title {
+     color: var(--title-text-color);
+ }
+
+ .feature-list.title {
+     color: var(--title-text-color);
+ }
+
+ .title-definition {
+     color: var(--primary-text-color);
+ }
+
+ .work-list .title {
+     color: var(--secondary-text-color);
+ }
+
+ .name {
+     color: var(--title-text-color);
+ }
+
+ .speciality {
+     color: var(--primary-text-color);
+ }
+
+ /*Button*/
+
+ .button {
+     color: var(--secondary-text-color) ;
+     background-color: var(--accent-color) ;
+ }
+
+.social-networks .link {
+    color:#AFB1B8 ;
+}
+
+.social-networks .link:hover,
+.social-networks .link:focus {
+    color: var(--accent-color);
+}
+
+/*.social-net .link {
+    color:#ffffff rgba(f, f, f, 0.1);
+}*/
+
+.social-net .link:hover,
+.social-net .link:focus {
+    color: var(--accent-color);
+}
+
+
+/*цвет титульного текста 212121*/
+/*основной цвет текста 757575*/
+/*вторичный цвет текста FFFFFF*/
+/*акцент цвет 2196F3*/
+/* адрес и телефон в футере FFFFFF 60%*/
+/*иконки клтентов и соц сетей цвет AFB1B8*/
+/*backgraund color ffffff*/
+/*вторичный цвет фона F5F4FA*/
+/*первичный цыет фона ffffff*/
+
+
+/*Стилизация страницы Портфолио*/
+
+.button-list {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-list .link:hover,
+.button-list .link:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
