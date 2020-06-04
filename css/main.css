@@ -4,6 +4,25 @@
      --title-text-color: #212121;
      --accent-color:#2196F3;
  }
+
+ .logo {
+     font-family: Raleway, sans-serif;
+ }
+ 
+ .web {
+     color: var(--accent-color);
+     font-weight: bold;
+ }
+ 
+ .studio {
+     color: #000000;
+     font-weight: bold;
+ }
+
+ .studiof {
+     color: var(--secondary-text-color);
+     font-weight: bold;
+ }
  
  /*Стилизация страницы Студия*/
 
@@ -18,6 +37,7 @@
 
  body {
      background-color:#ffffff;
+     font-family: Roboto, sans-serif;
  }
 
  ul {
@@ -112,6 +132,8 @@
 
 
 /*Стилизация страницы Портфолио*/
+/*lin-height в коде заменяем на 1.2*/
+
 
 .button-list {
     color: var(--title-text-color);
